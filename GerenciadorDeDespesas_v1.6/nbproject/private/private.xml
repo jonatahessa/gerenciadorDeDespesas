@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/jonat/Documents/NetBeansProjects/gerenciadorDeDespesas/GerenciadorDeDespesas_v1.6/src/br/com/CrudMovimentacao/TelaNovaMovimentacao.java</file>
+            <file>file:/C:/Users/jonat/Documents/NetBeansProjects/gerenciadorDeDespesas/GerenciadorDeDespesas_v1.6/src/br/com/Daos/DaoMovimentacao.java</file>
+            <file>file:/C:/Users/jonat/Documents/NetBeansProjects/gerenciadorDeDespesas/GerenciadorDeDespesas_v1.6/src/br/com/CrudMovimentacao/TelaEditarMovimentacao.java</file>
+            <file>file:/C:/Users/jonat/Documents/NetBeansProjects/gerenciadorDeDespesas/GerenciadorDeDespesas_v1.6/src/br/com/ConexaoBanco/ConnectionUtils.java</file>
+        </group>
     </open-files>
 </project-private>

@@ -111,7 +111,7 @@ public class TelaEditarMovimentacao extends javax.swing.JInternalFrame {
 
         jComboBoxNomePessoa.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jComboBoxNomePessoa.setForeground(new java.awt.Color(102, 102, 102));
-        jComboBoxNomePessoa.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Stephanie", "Jonata", "Casa", "Carro", "Lazer" }));
+        jComboBoxNomePessoa.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Contas", "Casa", "Carro", "Lazer" }));
         jComboBoxNomePessoa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBoxNomePessoaActionPerformed(evt);
@@ -320,7 +320,7 @@ public class TelaEditarMovimentacao extends javax.swing.JInternalFrame {
     private javax.swing.JButton jButtonSalvar;
     public javax.swing.JComboBox<String> jComboBoxNomePessoa;
     public javax.swing.JFormattedTextField jFormattedTextFieldData;
-    private javax.swing.JFormattedTextField jFormattedTextFieldNumeroDeParcelas;
+    public javax.swing.JFormattedTextField jFormattedTextFieldNumeroDeParcelas;
     private javax.swing.JLabel jLabeNomelPessoa;
     private javax.swing.JLabel jLabelData;
     private javax.swing.JLabel jLabelNomeDaMovimentacao;

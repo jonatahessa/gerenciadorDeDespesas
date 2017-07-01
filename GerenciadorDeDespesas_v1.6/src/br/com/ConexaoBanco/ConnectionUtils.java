@@ -22,11 +22,11 @@ public class ConnectionUtils {
             Class.forName(driverName);
             
             //Configurando a conexao com o banco de dados
-            String serveName = ""; // Caminho do servidor do BD
-            String mydatabase = ""; // Nome do banco de dados
-            String url = "" + serveName + "/" + mydatabase;
-            String username = ""; // Nome de usuario
-            String password = ""; // Senha de acesso
+            String serveName = "ger-desp.mysql.uhserver.com"; // Caminho do servidor do BD
+            String mydatabase = "ger_desp"; // Nome do banco de dados
+            String url = "jdbc:mysql://" + serveName + "/" + mydatabase;
+            String username = "joliveira"; // Nome de usuario
+            String password = "br@sil3030"; // Senha de acesso
             connection = DriverManager.getConnection(url, username, password);
             
             //Teste de conexao

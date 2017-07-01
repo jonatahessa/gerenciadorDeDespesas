@@ -93,7 +93,7 @@ public class TelaNovaMovimentacao extends javax.swing.JInternalFrame {
 
         jComboBoxNomePessoa.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jComboBoxNomePessoa.setForeground(new java.awt.Color(102, 102, 102));
-        jComboBoxNomePessoa.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Stephanie", "Jonata", "Casa", "Carro", "Lazer" }));
+        jComboBoxNomePessoa.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Contas", "Casa", "Carro", "Lazer" }));
         jComboBoxNomePessoa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBoxNomePessoaActionPerformed(evt);
@@ -380,7 +380,6 @@ public class TelaNovaMovimentacao extends javax.swing.JInternalFrame {
             jRadioButtonStatusPago.setVisible(true);
             jLabelNomePessoa.setText("Despesa de:");
             jComboBoxNomePessoa.removeAllItems();
-            jComboBoxNomePessoa.addItem("Stephanie");
             jComboBoxNomePessoa.addItem("Jonata");
             jComboBoxNomePessoa.addItem("Casa");
             jComboBoxNomePessoa.addItem("Carro");
@@ -397,7 +396,6 @@ public class TelaNovaMovimentacao extends javax.swing.JInternalFrame {
             jRadioButtonStatusPago.setVisible(false);
             jLabelNomePessoa.setText("Receita de:");
             jComboBoxNomePessoa.removeAllItems();
-            jComboBoxNomePessoa.addItem("Stephanie");
             jComboBoxNomePessoa.addItem("Jonata");
 
         }
